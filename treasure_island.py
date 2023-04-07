@@ -25,13 +25,13 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 '''
 )
 print(
-    "You arrive at the obelisk that was foretold in your dreams.\nThe path diverges into a fork and you must make a decision which one you will be walking."
+    "\nYou arrive at the obelisk that was foretold in your dreams.\nThe path diverges into a fork and you must make a decision which one you will be walking."
 )
 path_choice = input("Type left or right: ").lower()
 
 if path_choice == "left":
     print(
-        """You eventually reach the decrepit lake near the foot of the mountain Gha'agru.
+        """\nYou eventually reach the decrepit lake near the foot of the mountain Gha'agru.
     The waters look too dark and troublesome to swim across.
     But then, you recount the village rumor of Dagongorn, the hermit by the mountain who knows the lay of the land and might get you across.IF he is to be found.
         """
@@ -41,7 +41,7 @@ if path_choice == "left":
     ).lower()
     if swim_choice == "wait":
         print(
-            """You decide bet your life on a village tale and that village tale eventually came to be true.
+            """\nYou decide bet your life on a village tale and that village tale eventually came to be true.
         A tall figure draped in black robes and a lamp on his hand walks towards you.
         You overcome your crippling sense of anxiety and fear and bellow out.
           "I need to get across this lake at any cost for such doom awaits humanity if i dont make it!"
@@ -57,7 +57,7 @@ if path_choice == "left":
         mine_choice = input("Left or right").lower()
         if mine_choice == "right":
             print(
-                """You fall through for a couple of seconds and land in a dimly lit cave.
+                """\nYou fall through for a couple of seconds and land in a dimly lit cave.
             Something catches your eye and it is none other than the golden chest that will be the answer to your predicament.
             You open it with bated breath and hope it is a divine weapon or armor that will help you fight off the demonwraith invasion that is inevitable.
             In the chest you find........
@@ -83,7 +83,7 @@ if path_choice == "left":
 
         else:
             print(
-                f'''You fall into a bottomless pit and before you could come to your senses of where you are, the fall halts.
+                f'''\nYou fall into a bottomless pit and before you could come to your senses of where you are, the fall halts.
             A burning sensation spreads across your torso as you realise the pointy rock formation impaling you.
             Unfortunate.
                 ***{player_name}*** died.
@@ -93,7 +93,7 @@ if path_choice == "left":
 
     else:
         print(
-            f"""Unbeknownst to you, this lake is the hunting ground of the Gael'ims, alligator like monsters that swarm their prey and leave only the tint of blood in the lake.
+            f"""\nUnbeknownst to you, this lake is the hunting ground of the Gael'ims, alligator like monsters that swarm their prey and leave only the tint of blood in the lake.
                 ***{player_name}*** died.
             
           !-!-*-!-||GAME OVER||-!-*-!-!"""
@@ -101,7 +101,7 @@ if path_choice == "left":
 
 else:
     print(
-        f"""You walked right into the necromancer lair.\nThere was no coming back from that.
+        f"""\nYou walked right into the necromancer lair.\nThere was no coming back from that.
                 ***{player_name}*** died.
             
       !-!-*-!-||GAME OVER||-!-*-!-!
