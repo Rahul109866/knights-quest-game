@@ -32,8 +32,8 @@ path_choice = input("Type left or right: ").lower()
 if path_choice == "left":
     print(
         """\nYou eventually reach the decrepit lake near the foot of the mountain Gha'agru.
-    The waters look too dark and troublesome to swim across.
-    But then, you recount the village rumor of Dagongorn, the hermit by the mountain who knows the lay of the land and might get you across.IF he is to be found.
+The waters look too dark and troublesome to swim across.
+But then, you recount the village rumor of Dagongorn, the hermit by the mountain who knows the lay of the land and might get you across.IF he is to be found.
         """
     )
     swim_choice = input(
@@ -42,32 +42,36 @@ if path_choice == "left":
     if swim_choice == "wait":
         print(
             """\nYou decide bet your life on a village tale and that village tale eventually came to be true.
-        A tall figure draped in black robes and a lamp on his hand walks towards you.
-        You overcome your crippling sense of anxiety and fear and bellow out.
-          "I need to get across this lake at any cost for such doom awaits humanity if i dont make it!"
+A tall figure draped in black robes and a lamp on his hand walks towards you.
+You overcome your crippling sense of anxiety and fear and bellow out.
+        "I need to get across this lake at any cost for such doom awaits humanity if i dont make it!"
             "Yes.Dagongorn can take you across but Dagongorn doubts your claim of doom awaiting.Prove it by sacrifice or die fighting me for invading my land!"
-        You are left with no choice but to sacrifice.\n You ask what proof does he need knowing full well it will be something impossible.
+You are left with no choice but to sacrifice.\n You ask what proof does he need knowing full well it will be something impossible.
             "Your index and ring finger" came the reply.
-        This was much better than what you feared. You chop it off with your dagger and he agrees to help you cross the lake.
-        Before you could thank him for his help, he was long gone and the boat tracks on the mud were found to be nowhere.
-        You press on with the task at hand and arrive at the abandoned mineshaft at the foot of the legendary Gha'agru mountain.
-        There are two mineshafts burrowing deep into the mine and you must make a choice.
+This was much better than what you feared. You chop it off with your dagger and he agrees to help you cross the lake.
+        \nBefore you could thank him for his help, he was long gone and the boat tracks on the mud were found to be nowhere.
+You press on with the task at hand and arrive at the abandoned mineshaft at the foot of the legendary Gha'agru mountain.
+    \n\nThere are two mineshafts burrowing deep into the mine and you must make a choice.
           """
         )
         mine_choice = input("Left or right").lower()
         if mine_choice == "right":
             print(
                 """\nYou fall through for a couple of seconds and land in a dimly lit cave.
-            Something catches your eye and it is none other than the golden chest that will be the answer to your predicament.
-            You open it with bated breath and hope it is a divine weapon or armor that will help you fight off the demonwraith invasion that is inevitable.
-            In the chest you find........
-            The divine Bow of the Gods that binds to its owner and smites demons.
-            Your elation soon disappears and dread fills your system as you look down on your right hand.
+Something catches your eye and it is none other than the golden chest that will be the answer to your predicament.
+You open it with bated breath and hope it is a divine weapon or armor that will help you fight off the demonwraith invasion that is inevitable.
+    \nIn the chest you find........
+****The divine Bow of the Gods that binds to its owner and smites demons.****
+    \nYour elation soon disappears and dread fills your system as you look down on your right hand.
+        ...
+         ...
+          ...
+           ...
             ...
-            ...
-            ...
-            ...
-            ...
+           ...
+          ...
+         ...
+        ...
             """
             )
             print(
