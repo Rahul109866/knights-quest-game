@@ -32,8 +32,8 @@ path_choice = input("Type left or right: ").lower()
 if path_choice == "left":
     print(
         """You eventually reach the decrepit lake near the foot of the mountain Gha'agru.
-        The waters look too dark and troublesome to swim across.
-        But then, you recount the village rumor of Dagongorn, the hermit by the mountain who knows the lay of the land and might get you across.IF he is to be found.
+    The waters look too dark and troublesome to swim across.
+    But then, you recount the village rumor of Dagongorn, the hermit by the mountain who knows the lay of the land and might get you across.IF he is to be found.
         """
     )
     swim_choice = input(
@@ -86,7 +86,7 @@ if path_choice == "left":
                 f'''You fall into a bottomless pit and before you could come to your senses of where you are, the fall halts.
             A burning sensation spreads across your torso as you realise the pointy rock formation impaling you.
             Unfortunate.
-            ***{player_name}*** died.
+                ***{player_name}*** died.
             
             !-!-*-!-||GAME OVER||-!-*-!-!"'''
             )
@@ -94,7 +94,7 @@ if path_choice == "left":
     else:
         print(
             f"""Unbeknownst to you, this lake is the hunting ground of the Gael'ims, alligator like monsters that swarm their prey and leave only the tint of blood in the lake.
-           ***{player_name}*** died.
+                ***{player_name}*** died.
             
           !-!-*-!-||GAME OVER||-!-*-!-!"""
         )
@@ -102,7 +102,13 @@ if path_choice == "left":
 else:
     print(
         f"""You walked right into the necromancer lair.\nThere was no coming back from that.
-            ***{player_name}*** died.
+                ***{player_name}*** died.
             
-      !-!-*-!-||GAME OVER||-!-*-!-!"""
+      !-!-*-!-||GAME OVER||-!-*-!-!
+            
+            
+            
+            
+            !!!!This game was written and programmed by Rahul Rajendran.!!!!
+      """
     )
