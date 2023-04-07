@@ -31,7 +31,22 @@ path_choice = input("Type left or right: ").lower()
 
 if path_choice == "left":
     print(
-        """\nYou eventually reach the decrepit lake near the foot of the mountain Gha'agru.
+        """
+    .                  .-.    .  _   *     _   .
+           *          /   \     ((       _/ \       *    .
+         _    .   .--'\/\_ \     `      /    \  *    ___
+     *  / \_    _/ ^      \/__        /\/\  /\  __/   \ *
+       /    \  /    .'   _/  /  \  *' /    \/  \/ .`'\_/\   .
+  .   /\/\  /\/ :' __  ^/  ^/    `--./.'  ^  `-.\ _    _:\ _
+     /    \/  \  _/  \-' __/.' ^ _   \_   .'\   _/ \ .  __/ 
+   /\  .-   `. \/     \ / -.   _/ \ -. `_/   \ /    `._/  ^  
+  /  `-.__ ^   / .-'.--'    . /    `--./ .-'  `-.  `-. `.  -  `.
+@/        `.  / /      `-.   /  .-'   / .   .'   \    \  \  .-  \%
+@&8jgs@@ @)&@&(88&@.-_=_-=_-=_-=_-=_.8@% &@&&8(8%@%8)(8@%8 8%@)%
+@88:::&(&8&&8:::::%&`.~-_~~-~~_~-~_~-~~=.'@(&%::::%@8&8)::&#@8::::
+`::::::8%@@%:::::@%&8:`.=~~-.~~-.~~=..~'8::::::::&@8:::::&8:::::'
+ `::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.'
+\nYou eventually reach the decrepit lake near the foot of the mountain Gha'agru.
 The waters look too dark and troublesome to swim across.
 But then, you recount the village rumor of Dagongorn, the hermit by the mountain who knows the lay of the land and might get you across.IF he is to be found.
         """
