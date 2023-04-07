@@ -60,7 +60,7 @@ But then, you recount the village rumor of Dagongorn, the hermit by the mountain
 A tall figure draped in black robes and a lamp on his hand walks towards you.
 You overcome your crippling sense of anxiety and fear and bellow out.
         "I need to get across this lake at any cost for such doom awaits humanity if i dont make it!"
-            "Yes.Dagongorn can take you across but Dagongorn doubts your claim of doom awaiting.Prove it by sacrifice or die fighting me for invading my land!"
+            "\033[3mYes.Dagongorn can take you across but Dagongorn doubts your claim of doom awaiting.Prove it by sacrifice or die fighting me for invading my land!\033[0m"
 You are left with no choice but to sacrifice.\n You ask what proof does he need knowing full well it will be something impossible.
             "Your index and ring finger" came the reply.
 This was much better than what you feared. You chop it off with your dagger and he agrees to help you cross the lake.
@@ -134,9 +134,9 @@ You open it with bated breath and hope it is a divine weapon or armor that will 
         else:
             print(
                 f'''\nYou fall into a bottomless pit and before you could come to your senses of where you are, the fall halts.
-            A burning sensation spreads across your torso as you realise the pointy rock formation impaling you.
-            Unfortunate.
-            ***{player_name}*** died.
+\nA burning sensation spreads across your torso as you realise the pointy rock formation impaling you.
+Unfortunate.
+        ***{player_name}*** died.
             
             !-!-*-!-||GAME OVER||-!-*-!-!"'''
             )
