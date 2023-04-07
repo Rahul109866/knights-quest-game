@@ -37,7 +37,7 @@ But then, you recount the village rumor of Dagongorn, the hermit by the mountain
         """
     )
     swim_choice = input(
-        "Do You want to swim or take your chances with a village tale?\nType swim or wait"
+        "Do You want to swim or take your chances with a village tale?\nType swim or wait: "
     ).lower()
     if swim_choice == "wait":
         print(
